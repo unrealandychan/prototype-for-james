@@ -50,4 +50,4 @@ user_input = st.text_input("Enter your input:" ,value=transcript, key="user_inpu
 # Display the result in the input field
 if user_input:
     result = story_completion(user_input)
-    st.text_input("Result:", value=result, key="result")
+    st.write("Result:", value=result, key="result")
