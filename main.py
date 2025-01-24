@@ -72,4 +72,4 @@ else:
     # Display the result in a text area
     if user_input:
         result = story_completion(user_input)
-        st.text_area("Result:", value=result, key="result")
+        st.text_area("Result:", value=result, key="result",height=1000)
