@@ -4,9 +4,6 @@ import streamlit as st
 import azure.cognitiveservices.speech as speechsdk
 import tempfile
 from src.openai_service import story_completion
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # Azure Speech service configuration
 speech_key = os.getenv("AZURE_SPEECH_KEY")
