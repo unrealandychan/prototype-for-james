@@ -67,7 +67,7 @@ else:
             recognize_from_audio_file(audio_file.read())
 
     # Create an input field
-    user_input = st.text_input("Enter your input:", value=transcript, key="user_input",height=200)
+    user_input = st.text_area("Enter your input:", value=transcript, key="user_input",height=200)
 
     # Display the result in a text area
     if user_input:
